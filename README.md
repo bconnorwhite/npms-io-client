@@ -1,15 +1,16 @@
 <div align="center">
   <h1>npms-io-client</h1>
   <a href="https://npmjs.com/package/npms-io-client">
-    <img alt="npm" src="https://img.shields.io/npm/v/npms-io-client">
+    <img alt="npm" src="https://img.shields.io/npm/v/npms-io-client.svg">
   </a>
-  <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/npms-io-client">
-  <img alt="dependencies" src="https://img.shields.io/david/bconnorwhite/npms-io-client">
   <a href="https://github.com/bconnorwhite/npms-io-client">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/npms-io-client?style=social">
+    <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/npms-io-client.svg">
+  </a>
+  <a href="https://github.com/bconnorwhite/npms-io-client">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/npms-io-client?label=Stars%20Appreciated%21&style=social">
   </a>
   <a href="https://twitter.com/bconnorwhite">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bconnorwhite?label=%40bconnorwhite&style=social">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bconnorwhite.svg?label=%40bconnorwhite&style=social">
   </a>
 </div>
 
@@ -27,7 +28,7 @@ yarn add npms-io-client
 ```
 
 ```bash
-npm i npms-io-client
+npm install npms-io-client
 ```
 
 ## API
@@ -36,7 +37,7 @@ npm i npms-io-client
 - [Package](#Package)
 - [Packages](#Packages)
 
----
+##
 
 ### Search
 ```ts
@@ -94,7 +95,9 @@ type SearchResult = {
 }
 ```
 
----
+##
+
+<br />
 
 ### Suggestions
 ```ts
@@ -120,7 +123,9 @@ getSuggestions("chal").then((results) => {
 getSuggestions(query: string, size?: number) => Promise<SuggestionsResponse>;
 ```
 
----
+##
+
+<br />
 
 ### Package
 ```ts
@@ -149,7 +154,9 @@ type PackageResult = {
 }
 ```
 
----
+##
+
+<br />
 
 ### Packages
 ```ts
@@ -191,18 +198,32 @@ getPackages(packages: string[]): Promise<PackagesResponse>;
 type PackagesResponse = PackageResult[];
 ```
 
----
+##
 
-## Dependencies
+<br />
+
+
+<h2>Dependencies<img align="right" alt="dependencies" src="https://img.shields.io/david/bconnorwhite/npms-io-client.svg"></h2>
 
 - [isomorphic-fetch](https://npmjs.com/package/isomorphic-fetch): Isomorphic WHATWG Fetch API, for Node & Browserify
 - [stringify-json-object](https://npmjs.com/package/stringify-json-object): Stringify and format a JSON object.
 - [url-join](https://npmjs.com/package/url-join): Join urls and normalize as in path.join.
 
-## Dev Dependencies
-- [@bconnorwhite/bob](https://npmjs.com/package/@bconnorwhite/bob): Bob builds and watches typescript projects.
-- [@types/isomorphic-fetch](https://npmjs.com/package/@types/isomorphic-fetch):TypeScript definitions for isomorphic-fetch
-- [@types/url-join](https://npmjs.com/package/@types/url-join):TypeScript definitions for url-join
 
-## License
-MIT
+##
+
+<br />
+
+<h2>Dev Dependencies<img align="right" alt="David" src="https://img.shields.io/david/dev/bconnorwhite/npms-io-client.svg"></h2>
+
+- [@bconnorwhite/bob](https://npmjs.com/package/@bconnorwhite/bob): Bob builds and watches typescript projects.
+- [@types/isomorphic-fetch](https://npmjs.com/package/@types/isomorphic-fetch): TypeScript definitions for isomorphic-fetch
+- [@types/url-join](https://npmjs.com/package/@types/url-join): TypeScript definitions for url-join
+
+##
+
+<br />
+
+<h2>License <img align="right" alt="license" src="https://img.shields.io/npm/l/npms-io-client.svg"></h2>
+
+[MIT](https://mit-license.org/)
