@@ -11,7 +11,7 @@
 
 <br />
 
-A typed npms.io api client.
+A typed [npms.io](https://npms.io/) api client.
 
 Uses isomorphic-fetch to support both node and browser environments.
 
