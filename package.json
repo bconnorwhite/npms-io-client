@@ -5,6 +5,11 @@
   "main": "./build/index.js",
   "author": "Connor White",
   "license": "MIT",
+  "homepage": "https://github.com/bconnorwhite/npms-io-client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bconnorwhite/npms-io-client.git"
+  },
   "keywords": [
     "npms",
     "npm",

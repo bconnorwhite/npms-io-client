@@ -5,8 +5,12 @@
   </a>
   <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/npms-io-client">
   <img alt="dependencies" src="https://img.shields.io/david/bconnorwhite/npms-io-client">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/npms-io-client?style=social">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bconnorwhite?label=%40bconnorwhite&style=social">
+  <a href="https://github.com/bconnorwhite/npms-io-client">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/npms-io-client?style=social">
+  </a>
+  <a href="https://twitter.com/bconnorwhite">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bconnorwhite?label=%40bconnorwhite&style=social">
+  </a>
 </div>
 
 <br />
