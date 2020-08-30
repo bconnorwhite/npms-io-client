@@ -26,7 +26,8 @@
   ],
   "scripts": {
     "build": "bob build",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "test": "node ./test.js"
   },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
