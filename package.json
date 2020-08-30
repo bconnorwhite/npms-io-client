@@ -1,0 +1,36 @@
+{
+  "name": "npms-io-client",
+  "version": "1.0.0",
+  "description": "Isomorphic typed client for npms.io.",
+  "main": "./build/index.js",
+  "author": "Connor White",
+  "license": "MIT",
+  "keywords": [
+    "npms",
+    "npm",
+    "api",
+    "client",
+    "fetch",
+    "io",
+    "npms.io",
+    "typed",
+    "typescript",
+    "package",
+    "packages",
+    "search"
+  ],
+  "scripts": {
+    "build": "bob build",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "stringify-json-object": "^1.0.2",
+    "url-join": "^4.0.1"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^1.9.5",
+    "@types/isomorphic-fetch": "^0.0.35",
+    "@types/url-join": "^4.0.0"
+  }
+}
