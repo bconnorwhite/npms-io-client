@@ -1,11 +1,11 @@
 <div align="center">
   <h1>npms-io-client</h1>
-  <a href="https://npmjs.com/package/npm-io-client">
-    <img alt="npm" src="https://img.shields.io/npm/v/npm-io-client">
+  <a href="https://npmjs.com/package/npms-io-client">
+    <img alt="npm" src="https://img.shields.io/npm/v/npms-io-client">
   </a>
-  <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/npm-io-client">
+  <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/npms-io-client">
   <img alt="dependencies" src="https://img.shields.io/david/bconnorwhite/npms-io-client">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/npm-io-client?style=social">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/npms-io-client?style=social">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bconnorwhite?label=%40bconnorwhite&style=social">
 </div>
 
