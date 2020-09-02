@@ -34,11 +34,11 @@
   },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
-    "stringify-json-object": "^1.0.2",
+    "stringify-json-object": "^1.0.3",
     "url-join": "^4.0.1"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^1.9.5",
+    "@bconnorwhite/bob": "^1.9.7",
     "@types/isomorphic-fetch": "^0.0.35",
     "@types/url-join": "^4.0.0"
   }
