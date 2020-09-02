@@ -20,7 +20,6 @@
 >
 > Uses isomorphic-fetch to support both node and browser environments.
 
-
 ## Installation
 
 ```bash
