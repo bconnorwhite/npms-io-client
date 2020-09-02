@@ -22,7 +22,10 @@
     "typescript",
     "package",
     "packages",
-    "search"
+    "search",
+    "npm api",
+    "npms api",
+    "pai"
   ],
   "scripts": {
     "build": "bob build",
