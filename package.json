@@ -1,6 +1,6 @@
 {
   "name": "npms-io-client",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Isomorphic typed client for npms.io",
   "main": "./build/index.js",
   "author": "Connor White",
