@@ -4,3 +4,4 @@ src
 .gitignore
 yarn.lock
 yarn-error.log
+test.js
