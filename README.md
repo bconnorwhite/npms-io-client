@@ -16,9 +16,9 @@
 
 <br />
 
-> A typed [npms.io](https://npms.io/) api client.
->
-> Uses isomorphic-fetch to support both node and browser environments.
+> A universal typed [npms.io](https://npms.io/) api client.
+
+Uses [cross-fetch](https://npmjs.com/package/cross-fetch) to support both node and browser environments.
 
 ## Installation
 
@@ -204,7 +204,7 @@ type PackagesResponse = PackageResult[];
 
 <h2>Dependencies<img align="right" alt="dependencies" src="https://img.shields.io/david/bconnorwhite/npms-io-client.svg"></h2>
 
-- [isomorphic-fetch](https://npmjs.com/package/isomorphic-fetch): Isomorphic WHATWG Fetch API, for Node & Browserify
+- [cross-fetch](https://npmjs.com/package/cross-fetch): Universal WHATWG Fetch API for Node, Browsers and React Native
 - [stringify-json-object](https://npmjs.com/package/stringify-json-object): Stringify and format a JSON object.
 - [url-join](https://npmjs.com/package/url-join): Join urls and normalize as in path.join.
 
@@ -216,7 +216,6 @@ type PackagesResponse = PackageResult[];
 <h2>Dev Dependencies<img align="right" alt="David" src="https://img.shields.io/david/dev/bconnorwhite/npms-io-client.svg"></h2>
 
 - [@bconnorwhite/bob](https://npmjs.com/package/@bconnorwhite/bob): Bob builds and watches typescript projects.
-- [@types/isomorphic-fetch](https://npmjs.com/package/@types/isomorphic-fetch): TypeScript definitions for isomorphic-fetch
 - [@types/url-join](https://npmjs.com/package/@types/url-join): TypeScript definitions for url-join
 
 ##

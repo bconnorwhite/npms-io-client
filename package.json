@@ -1,7 +1,7 @@
 {
   "name": "npms-io-client",
   "version": "1.0.6",
-  "description": "Isomorphic typed client for npms.io",
+  "description": "A universal typed npms.io client",
   "main": "./build/index.js",
   "author": "Connor White",
   "license": "MIT",
@@ -33,13 +33,12 @@
     "test": "node ./test.js"
   },
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
+    "cross-fetch": "^3.0.5",
     "stringify-json-object": "^1.0.3",
     "url-join": "^4.0.1"
   },
   "devDependencies": {
     "@bconnorwhite/bob": "^1.9.7",
-    "@types/isomorphic-fetch": "^0.0.35",
     "@types/url-join": "^4.0.0"
   }
 }

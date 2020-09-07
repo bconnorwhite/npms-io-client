@@ -1,4 +1,4 @@
-import fetch from "isomorphic-fetch";
+import fetch from "cross-fetch";
 import join from "url-join";
 import stringify, { JSONObject, JSONArray } from "stringify-json-object";
 
