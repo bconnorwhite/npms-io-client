@@ -38,7 +38,7 @@
     "url-join": "^4.0.1"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^1.9.7",
+    "@bconnorwhite/bob": "^2.0.1",
     "@types/url-join": "^4.0.0"
   }
 }
