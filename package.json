@@ -2,9 +2,8 @@
   "name": "npms-io-client",
   "version": "1.0.7",
   "description": "A universal typed npms.io client",
-  "main": "./build/index.js",
-  "author": "Connor White",
   "license": "MIT",
+  "author": "Connor White",
   "homepage": "https://github.com/bconnorwhite/npms-io-client",
   "repository": {
     "type": "git",
@@ -30,9 +29,11 @@
   "files": [
     "build"
   ],
+  "main": "./build/index.js",
   "scripts": {
     "build": "bob build",
     "postversion": "git push",
+    "prepublishOnly": "yarn build",
     "test": "node ./test.js"
   },
   "dependencies": {
