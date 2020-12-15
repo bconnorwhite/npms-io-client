@@ -1063,11 +1063,6 @@
   resolved "https://registry.yarnpkg.com/@bconnorwhite/json-types/-/json-types-1.0.2.tgz#6ad5d379ef04ad4eb37442b97f7113b994d44675"
   integrity sha512-XQG8O9wVYdIGvIAkePDy9vI95yRHywPXsUE/SsX+Lu8AXNB9WtAsW86he71MFsZed94UOL1h5j6GALO328C5SA==
 
-"@bconnorwhite/json-types@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@bconnorwhite/json-types/-/json-types-1.0.3.tgz#601cc65251450699d3d8c2fb30efbca9a48c3111"
-  integrity sha512-0/4oYHVglgfKOBlFOAk+ssD39M4zfZsvnkAZT0s4yZyQr7w5HfTEsaMf3QLSPwow+waAi9IUFxTrDxCfO93wyQ==
-
 "@bconnorwhite/json-types@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@bconnorwhite/json-types/-/json-types-1.0.5.tgz#c638604ac07f326e74f0b082d34964e8baf6e75c"
@@ -5021,19 +5016,19 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-stringify-json-object@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/stringify-json-object/-/stringify-json-object-1.0.3.tgz#86162b4c7b60441c8c6fb9cf70ae822995db0943"
-  integrity sha512-G6iNZJDYVmDxraJw0Pkh+9hIki/RPrvz11VfSYgKWIToizFM5iAx5jAyDf8IXNOk61pHqfKDerRNmwxtFVP51Q==
-  dependencies:
-    "@bconnorwhite/json-types" "^1.0.3"
-
 stringify-json-object@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/stringify-json-object/-/stringify-json-object-1.0.4.tgz#05ba7bece42f59766bc5861e4088a35113fe2a97"
   integrity sha512-3MMwo6JzK/0fWXc9mPUi68cdqnkXnO5B47PFWx5kOVKhhkteCjFdq0rkudv+XW6/p8JIki2SPW4bOJpOAUxWlg==
   dependencies:
     "@bconnorwhite/json-types" "^1.0.5"
+
+stringify-json-object@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/stringify-json-object/-/stringify-json-object-1.0.7.tgz#7c5592c0c85aa247d104c3a27f5e70c67ce22ca6"
+  integrity sha512-swTYj+6RL1e4a6whybHPSw+/7X54fyEKbK/fK6uL81PMHohHawfpZDwtFU49vw/Mey6j19m9emN1YA2VE4aCog==
+  dependencies:
+    types-json "^1.2.2"
 
 strip-ansi@^5.1.0:
   version "5.2.0"
@@ -5275,6 +5270,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+types-json@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/types-json/-/types-json-1.2.2.tgz#91ebe6de59e741ab38a98b071708a29494cedfe6"
+  integrity sha512-VfVLISHypS7ayIHvhacOESOTib4Sm4mAhnsgR8fzQdGp89YoBwMqvGmqENjtYehUQzgclT+7NafpEXkK/MHKwA==
 
 typescript@^4.0.2:
   version "4.0.2"
